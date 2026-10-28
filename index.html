@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panji Wicaksono — CV</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 48px 24px;
+            font-size: 16px;
+            line-height: 1.65;
+            background-color: #fff;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        h1 {
+            margin: 0 0 4px;
+            font-size: 30px;
+            line-height: 1.2;
+        }
+
+        h2 {
+            margin: 28px 0 8px;
+            font-size: 18px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 6px;
+        }
+
+        p {
+            margin: 0 0 12px;
+        }
+
+        a {
+            color: #1a5fb4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            display: flex;
+            gap: 32px;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        .header-text {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .photo {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .item {
+            margin-bottom: 16px;
+            padding-left: 16px;
+            border-left: 2px solid #e5e5e5;
+        }
+
+        .item h3 {
+            margin: 0 0 2px;
+            font-size: 16px;
+        }
+
+        .item p {
+            margin: 0;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #e5e5e5;
+            margin: 32px 0 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 28px 20px;
+            }
+
+            .header {
+                flex-direction: column-reverse;
+                align-items: flex-start;
+                gap: 16px;
+            }
+
+            .photo {
+                width: 150px;
+                height: 150px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                margin-top: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-text">
+                <h1>Panji Wicaksono</h1>
+                <p>
+                    I am an Electronics Engineering student at <a href="https://uny.ac.id">Universitas Negeri
+                        Yogyakarta (UNY)</a>, with a background in Visual Communication Design from <a
+                        href="https://smkn1ponjong.sch.id">SMK Negeri 1 Ponjong</a>.
+                </p>
+                <p>
+                    My current interests include computer vision and large language models (LLMs). I enjoy exploring
+                    technical ideas, understanding how computational systems work, and learning how they can be applied
+                    to real-world problems.
+                </p>
+                <p>
+                    I am currently building my programming foundations and exploring different areas of computer
+                    science and AI.
+                </p>
+            </div>
+            <img class="photo" src="photo.jpg" alt="Photo of Panji Wicaksono">
+        </div>
+
+        <h2>Research interest</h2>
+        <p>
+            My current interests include computer vision and large language models (LLMs). I am curious about how AI
+            systems interpret visual information and process language, and how these capabilities can be developed and
+            applied to real-world problems.
+        </p>
+        <p>
+            I am still exploring these fields through reading, independent learning, and programming.
+        </p>
+
+        <hr>
+
+        <h2>Things I'm learning</h2>
+        <div class="item">
+            <h3>Programming with C and Python</h3>
+            <p>Practicing programming fundamentals through mathematical problems and exploring problem-solving with
+                code.</p>
+        </div>
+        <div class="item">
+            <h3>Linear Regression with SciPy</h3>
+            <p>Exploring linear regression using Python and SciPy as an introduction to basic data analysis.</p>
+        </div>
+        <div class="item">
+            <h3>Computer Vision &amp; LLMs</h3>
+            <p>Exploring the fundamentals of computer vision and large language models through reading and independent
+                learning.</p>
+        </div>
+    </div>
+</body>
+
+</html>
